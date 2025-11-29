@@ -55,14 +55,8 @@ The function will be given a class_size by number of students, odds, and Number_
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-
-
-
-
-
-
-
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+For the assumptions used (365-day year, uniformly distributed birthdays, independent bets), Professor Brownlow’s current $2-for-$1 wager is strongly in his favor for typical modern class sizes. In a class of 35 the probability of at least one shared birthday is about 81.44%, so Brownlow’s expected profit is roughly $0.443 per bet — which accumulates to an expected $282.29 over 637 bets (analytic SD ≈ $29.44, 95% analytic CI ≈ $224.59 to $339.99). This shows a stable, positive long-run gain for Brownlow: the bet is not fair as currently offered.
