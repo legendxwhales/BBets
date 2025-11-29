@@ -67,6 +67,7 @@ To determine the fair odds for Brownlow’s birthday bet, we first calculated th
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+To find the class size that makes Brownlow’s current 2:1 wager fair, I set the single-bet expected value to zero: with Brownlow risking $2 and a student risking $1 the EV per bet is 𝐸 = 3 𝑝 − 2 E=3p−2, so fairness requires 𝑝 = 2 / 3 p=2/3 where 𝑝 p is the probability at least two students share a birthday. Using the closed-form birthday formula 𝑝 ( 𝑛 ) = 1 − ∏ 𝑘 = 0 𝑛 − 1 365 − 𝑘 365 p(n)=1−∏ k=0 n−1 ​ 365 365−k ​ and searching over integer class sizes yields that the smallest class size with 𝑝 ≥ 2 / 3 p≥2/3 is 29 (for 𝑛 = 28 n=28, 𝑝 ≈ 0.65446 p≈0.65446; for 𝑛 = 29 n=29, 𝑝 ≈ 0.68097 p≈0.68097). Thus a class of 29 students is the smallest size that makes the 2:1 bet essentially fair (in discrete terms). I verified this both algebraically and by running the same Monte-Carlo birthday simulation used elsewhere; at 𝑛 = 29 n=29 the analytic expected total over any number of repeated independent bets is zero (within rounding), while for larger classes (e.g., 𝑛 = 35 n=35) Brownlow retains a positive expected profit.
 
 # Discussion and Conclusion
 
